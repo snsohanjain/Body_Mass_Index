@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class BmiCalculator {
 
     private double height;
@@ -15,7 +17,11 @@ public class BmiCalculator {
         double heightSquare = heightInMeter * heightInMeter;
 
         short bmi = (short) (weight / heightSquare);
-        return  bmi;
+        return  bmi ;
+    }
+
+    public int averageAge(){
+        return age;
     }
 
 
